@@ -1,4 +1,6 @@
 export default {
+    MAX_ATTACHMENT_SIZE: 5000000,
+    STRIPE_KEY: "YOUR_STRIPE_PUBLIC_KEY",
     s3: {
         REGION: "us-east-1",
         BUCKET: "appointment-passion-app-bucket"
